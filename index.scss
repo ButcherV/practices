@@ -1,0 +1,120 @@
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+
+.wrapper{
+  background-color:#1e202f;
+  width:100%;
+  color:white;
+  font-size:14px;
+  font-family:verdana;
+  h3{
+    padding-top:12px;
+    padding-left:12px;
+  }
+  .title{
+    padding:0 2.5%;
+    background-color:#6A93FF;
+    .logo{
+      width:20px;
+      height:20px;
+      border:8px solid white;
+      border-radius:50%;
+      float:left;
+    }
+    .account{
+      float:right;
+      height:47px;
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+      .headicon{
+         margin-left:20px;
+         display:inline-block;
+         width:30px;
+         height:30px;
+         background-color:white;
+         border-radius:50%;
+       }
+    }
+  }
+  .nav{
+    background-color:#282840;
+    padding:0 2.5%;
+    ul{
+      width:60%;
+      height:47px;
+      float:left;
+      li{
+        display:inline-block;
+        padding:15px 0;
+        margin-right:15px;
+        color:#6a93ff;
+        cursor:pointer;
+          
+        &:nth-child(1){
+          border-bottom:3px solid #6a93ff;
+          }
+        
+        &:hover{
+          border-bottom:3px solid #6a93ff;
+        }
+      }
+    }
+    .search{
+        margin-top:12px;
+        float:right;
+        .searchform{
+          .searchfield{
+            background:none;
+            border:none;
+            border-bottom:solid 2px #333251;
+            &:focus{
+              outline: none; 
+            } 
+          }
+        }
+      }
+  }
+    .content{
+      padding:0 2.5%;
+    .data{
+      margin:20px 0 10px 0;
+      .perEndpoints{
+        height:300px;
+        width:400px;
+        background-color:#282840;
+        float:left;
+      }
+      .sortedConnected{
+        width:400px;
+        height:300px;
+        float:right;
+        .sorted{
+          height:145px;
+          background-color:#282840;
+        }
+        .connected{
+          margin-top:10px;
+          height:145px;
+          background-color:#282840;
+        }
+        
+      }
+      .activeIncidents{
+        height:300px;
+        margin:0 410px;
+        background-color:#282840;
+      }
+      
+    }
+    .diagram{
+      margin:0 0 10px 0;
+      height:300px;
+      background-color:#282840;
+    }
+    .form{
+      margin:0 0 10px 0;
+      height:200px;
+      background-color:#282840;
+    }
+  }
+}
