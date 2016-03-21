@@ -1,0 +1,26 @@
+{
+  "name": "practices",
+  "version": "1.0.0",
+  "description": "this is practices from codepen",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ButcherV/practices.git"
+  },
+  "keywords": [
+    "practices"
+  ],
+  "author": "butcherv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ButcherV/practices/issues"
+  },
+  "homepage": "https://github.com/ButcherV/practices#readme",
+  "devDependencies": {
+    "gulp-sass": "^2.2.0",
+    "gulp-slim": "^0.3.0"
+  }
+}
