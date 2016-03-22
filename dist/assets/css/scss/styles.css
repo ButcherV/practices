@@ -1,0 +1,123 @@
+@charset "UTF-8";
+body, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, p, input, select, textarea, form {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 14px/1.5 "宋体"; }
+
+img {
+  border: none; }
+
+ul, ol {
+  list-style: none; }
+
+input, select, textarea {
+  outline: none;
+  border: none;
+  background: none; }
+
+textarea {
+  resize: none; }
+
+a {
+  text-decoration: none; }
+
+a:link, a:visited {
+  color: black; }
+
+/*清浮动*/
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+.wrapper {
+  background-color: #1e202f;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  font-family: verdana; }
+  .wrapper h3 {
+    padding-top: 12px;
+    padding-left: 12px; }
+  .wrapper .title {
+    padding: 0 2.5%;
+    background-color: #6A93FF; }
+    .wrapper .title .logo {
+      width: 20px;
+      height: 20px;
+      border: 8px solid white;
+      border-radius: 50%;
+      float: left; }
+    .wrapper .title .account {
+      float: right;
+      height: 47px; }
+      .wrapper .title .account .headicon {
+        margin-left: 20px;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-radius: 50%; }
+  .wrapper .nav {
+    background-color: #282840;
+    padding: 0 2.5%; }
+    .wrapper .nav ul {
+      width: 60%;
+      height: 47px;
+      float: left; }
+      .wrapper .nav ul li {
+        display: inline-block;
+        padding: 15px 0;
+        margin-right: 15px;
+        color: #6a93ff;
+        cursor: pointer; }
+        .wrapper .nav ul li:nth-child(1) {
+          border-bottom: 3px solid #6a93ff; }
+        .wrapper .nav ul li:hover {
+          border-bottom: 3px solid #6a93ff; }
+    .wrapper .nav .search {
+      margin-top: 12px;
+      float: right; }
+      .wrapper .nav .search .searchform .searchfield {
+        background: none;
+        border: none;
+        border-bottom: solid 2px #333251; }
+        .wrapper .nav .search .searchform .searchfield:focus {
+          outline: none; }
+  .wrapper .content {
+    padding: 0 2.5%; }
+    .wrapper .content .data {
+      margin: 20px 0 10px 0; }
+      .wrapper .content .data .perEndpoints {
+        height: 300px;
+        width: 400px;
+        background-color: #282840;
+        float: left; }
+      .wrapper .content .data .sortedConnected {
+        width: 400px;
+        height: 300px;
+        float: right; }
+        .wrapper .content .data .sortedConnected .sorted {
+          height: 145px;
+          background-color: #282840; }
+        .wrapper .content .data .sortedConnected .connected {
+          margin-top: 10px;
+          height: 145px;
+          background-color: #282840; }
+      .wrapper .content .data .activeIncidents {
+        height: 300px;
+        margin: 0 410px;
+        background-color: #282840; }
+    .wrapper .content .diagram {
+      margin: 0 0 10px 0;
+      height: 300px;
+      background-color: #282840; }
+    .wrapper .content .form {
+      margin: 0 0 10px 0;
+      height: 200px;
+      background-color: #282840; }
